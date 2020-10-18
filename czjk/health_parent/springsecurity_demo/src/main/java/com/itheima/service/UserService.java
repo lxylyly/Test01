@@ -23,7 +23,7 @@ public static BCryptPasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
         com.itheima.pojo.User user1 = new com.itheima.pojo.User();
         user1.setUsername("admin");
         user1.setPassword(passwordEncoder.encode("admin"));
-
+        System.out.println("第一次修改springsecurity，全局提交");
         com.itheima.pojo.User user2 = new com.itheima.pojo.User();
         user2.setUsername("zhangsan");
         user2.setPassword(passwordEncoder.encode("123"));
