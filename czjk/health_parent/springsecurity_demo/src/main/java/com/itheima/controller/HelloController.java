@@ -12,6 +12,7 @@ public class HelloController {
     public String add(){
         System.out.println("add...");
         System.out.println("add+git练习...");
+        System.out.println("add+git练习+push");
         return null;
     }
 
