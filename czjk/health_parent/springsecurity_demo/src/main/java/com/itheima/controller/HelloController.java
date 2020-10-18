@@ -14,6 +14,7 @@ public class HelloController {
         System.out.println("add+git练习...");
         System.out.println("add+git练习+push");
         System.out.println("add+git练习+push第二次，全局提交");
+        System.out.println("add+git练习+push第二次，全局提交+测试冲突");
         return null;
     }
 
